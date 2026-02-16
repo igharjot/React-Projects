@@ -1,5 +1,4 @@
 import { Award, Users, Globe, Heart } from 'lucide-react';
-
 const stats = [
   { icon: Users, number: "10,000+", label: "Happy Travelers" },
   { icon: Globe, number: "50+", label: "Destinations" },
@@ -20,13 +19,13 @@ const About = () => {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               With over 15 years of experience in the travel industry, Neocracy India Travel has been 
               crafting extraordinary journeys across the incredible landscapes of India. We are passionate 
-              about showcasing the rich cultural heritage, diverse traditions, and breathtaking beauty 
+              about showcasing the rich cultural heritage, diverse traditions, and breath-taking beauty 
               that our country has to offer.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our team of experienced travel experts and local guides ensure that every trip is 
               personalized, authentic, and unforgettable. From the majestic Himalayas to the serene 
-              backwaters of Kerala, we help you discover India like never before.
+              backwaters of Kerala, we help you discover India like never before. :)
             </p>
             
             {/* Features */}
